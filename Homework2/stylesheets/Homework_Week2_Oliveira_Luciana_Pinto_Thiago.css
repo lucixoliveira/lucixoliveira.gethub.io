@@ -1,0 +1,50 @@
+body {
+  width: 960px;
+  height: 1000px;
+  margin: 0 auto;
+  font-family: helvetica neue, arial, sans-serif;
+  color: gray;
+  background-color: white;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+h2 {
+  border-bottom: 1px solid gray;
+}
+a { 
+  color: orange;
+}
+a:hover {
+  color: purple;
+}
+p, li { 
+  font-size: 16px;
+  line-height: 30px;
+}
+img {
+  float: right;
+}
+#title {
+  float: left;
+}
+#logo {
+  float: right;
+}
+#summary {
+  clear: both;
+  font-family: helvetica neue, arial, sans-serif;
+  font-style: italic;
+  color: white;
+  background-color: #469F48;
+  border: solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+#center {
+  text-align: center;
+}
+#what{
+  color: white;
+  border-bottom: 1px solid white;
+}
