@@ -1,0 +1,13 @@
+.jumbotron {
+		background-image: "C:/Code/lucixoliveira.github.io/Homework3/images/Cardboard" 
+}
+.btn-primary {
+color: #fff;
+background-color: orange;
+border-color: orange;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #fff;
+background-color: red;
+border-color: red;
+}
