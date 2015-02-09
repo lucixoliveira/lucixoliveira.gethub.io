@@ -1,13 +1,13 @@
-.navbar-default {
-background-color: #40aaaa;
-border-color: #40aaaa;
+.jumbotron {
+		background-image: "C:/Code/lucixoliveira.github.io/Homework3/images/Cardboard" 
 }
-h2 {
-	font-family: Levenim MT
+.btn-primary {
+color: #fff;
+background-color: orange;
+border-color: orange;
 }
-.how {
-	border: ridge;
-}
-.colortitle {
-	color: #40aaaa;
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #fff;
+background-color: red;
+border-color: red;
 }
