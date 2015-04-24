@@ -1,12 +1,16 @@
+<html>
+<body>
 <h1>Welcome to Luciana's failed attempt to build herself a Casino!</h1>
-<p>
-<% number=[2,3,4,5,6,7,8,9,10] %>
-<% suit=["diamonds","spades","hearts","clubs"] %>
-<img src"=http://golearntocode.com/images/cards/<%= number.sample %>_of_<%= suit.sample %>.png">
-<img src"=http://golearntocode.com/images/cards/<%= number.sample %>_of_<%= suit.sample %>.png">
-<img src"=http://golearntocode.com/images/cards/<%= number.sample %>_of_<%= suit.sample %>.png">
-<img src"=http://golearntocode.com/images/cards/<%= number.sample %>_of_<%= suit.sample %>.png">
-<img src"=http://golearntocode.com/images/cards/<%= number.sample %>_of_<%= suit.sample %>.png">
-</p>
-<h3>Brief note on my failure</h3>
-<p>I believe I was able to do everything right, except for the fact that  there is something wrong with the way Chrome is interpreting Ruby. I wonder what went wrong and I gave up at around 11:30pm. :(</p>
+
+<% numbers = [2,3,4,5,6,7,8,9,10,"jack", "queen","king", "ace"] 
+suits = ["diamonds","spades","hearts","clubs"]
+deck = numbers.product(suits)
+cards = deck.sample(5) %>
+
+<% cards.each do |card| %>
+
+<img src"=http://golearntocode.com/images/cards/<%= card[0] %>_of_<%= card[1] %>.png">
+
+<% end %>
+</body>
+</html>
