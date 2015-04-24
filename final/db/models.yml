@@ -1,0 +1,21 @@
+Newcost:
+  user_id: integer
+  typeofcost_id: integer
+  vendor_id: integer
+  date: string
+  value: string
+  description: text
+
+User:
+  name: string
+  datejoined: string
+  useremail: string
+
+Typeofcost:
+  typename: string
+  vendor_id: integer
+
+Vendor:
+  vendorname: string
+  vendorregistration: string
+  vendoremail: string
